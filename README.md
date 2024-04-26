@@ -4,5 +4,6 @@
 
 ## 💫 Resources
 
-[Built using Gatsby](https://www.gatsbyjs.com/)
+[Built using Gatsby](https://www.gatsbyjs.com/)1
+
 [Deployed using Netlify](https://www.netlify.app/)
