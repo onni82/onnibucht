@@ -12,12 +12,9 @@ const ListLink = props => (
 export default function Layout({ pageProp, location, children }) {
   return (
     <div id="boxcontent">
-      <img src={Logo} alt="Emanuel Bucht" height="36" className="headerimg" />
+      <img src={Logo} alt="" height="36" className="headerimg" />
       <ul className="centered bigscreen">
         <ListLink to="/" activeClassName="active">HOME</ListLink>
-        <ListLink to="/audio/" activeClassName="active">AUDIO ENGINEERING</ListLink>
-        <ListLink to="/music/" activeClassName="active">MUSIC WRITING</ListLink>
-        <ListLink to="/voice/" activeClassName="active">VOICE ACTING</ListLink>
         <ListLink to="/programming/" activeClassName="active">PROGRAMMING &amp; WEB DEV</ListLink>
         <ListLink to="/education/" activeClassName="active">EDUCATION</ListLink>
         <ListLink to="/skills/" activeClassName="active">SKILLS &amp; TOOLS</ListLink>
