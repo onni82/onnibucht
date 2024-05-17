@@ -1,25 +1,21 @@
 import React from "react"
-import Header from "../components/header"
 import { Seo } from "../components/seo"
 import Layout from "../components/layout"
-import Hda from "../images/hda.png"
-import Avid from "../images/avid_certified.png"
-import BeLicensed from "../images/belicensed_nopadding.png"
-import IrisHadar from "../images/irishadar.png"
+import Securitas from "../images/securitas.png"
 
 export default function Home() {
     return (
         <Layout pageProp="home">
             <div id="page">
-                <Header headerText="Work Experience" className="centered" />
-                <img src={IrisHadar} alt="Iris Hadar Komvux" width="55" className="skillLogo" />
-                <h2>Iris Hadar</h2>
-                <p>Nov 2023-Jan 2024 - Municipal Adult Education - Mathematics 2a</p>
-                <p>Stockholm/Södertälje, Sweden (online course)</p>
-                <img src={IrisHadar} alt="Iris Hadar Komvux" width="55" className="skillLogo" />
-                <h2>Iris Hadar</h2>
-                <p>July 2023-Sep 2023 - Municipal Adult Education - Programming 1 (C++)</p>
-                <p>Stockholm/Södertälje, Sweden (online course)</p>
+                <img src={Securitas} alt="" className="skillLogo" />
+                <h2>Securitas</h2>
+                <p>April 2022-Present - Security Guard</p>
+                <p>Full-time contract as a security guard. On behalf of Securitas, I patrol several buildings at one of their clients' work areas in SÃ¶dertÃ¤lje.<br />This also includes report writing and fire and emergency alarm calls, as well as working as a receptionist and escort when needed.</p>
+                <p>SÃ¶dertÃ¤lje, Sweden</p>
+                <img src={Securitas} alt="" className="skillLogo" />
+                <h2>Mind Proxy AB</h2>
+                <p>June 2023-Sept 2023 - Supervisor and Administrator</p>
+                <p>Norberg, Sweden (Remote)</p>
             </div>
         </Layout>
     );

@@ -28,29 +28,36 @@ div {
 	flex-flow: column;
 	height: 100vh;
 }
-#header {
+header {
 	display: flex;
 	flex-wrap: wrap;
 	flex: 0 1 auto;
 }
-#header>ul,ul.centered {
+header img {
+	margin: auto;
+	padding-top: 1em;
+}
+header ul {
 	padding-left: 1%;
 	padding-right: 1%;
 	text-align: center;
 	list-style: none;
 }
-img.headerimg {
-	margin: auto;
-	padding-top: 1em;
+header li {
+	display: inline-block;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
 }
 img.skillLogo {
 	float: right;
+	width: 50px;
 }
-#footer {
-	height: 2rem;
+footer {
+	display: flex;
 	flex: 0 1 40px;
 }
-#footer>p {
+footer>p {
 	padding: 0 2%;
 }
 .blacktext {
@@ -79,12 +86,6 @@ a.button:hover,a.button:focus {
 	margin: auto;
 	flex: 1 1 auto;
 }
-li.headerlink {
-	display: inline-block;
-	margin-left: 1rem;
-	margin-right: 1rem;
-	margin-bottom: 1rem;
-}
 .flextext {
 	display: flex;
 }
@@ -93,7 +94,7 @@ a {
 	text-decoration: none;
 }
 a[aria-current],a.active {
-	color: rgb(0, 0, 0)!important;
+	color: rgb(0, 0, 0);
 }
 a:hover {
 	color: rgba(222, 141, 0, 1);
@@ -130,77 +131,7 @@ h3 {
 .centered {
 	text-align: center;
 }
-hr {
-	border-top: 1px dashed rgb(226, 226, 226)!important;
-	border-bottom: 0px;
-}
 ::selection {
 	color: #ff93fb;
 	background-color: #000;
-}
-.grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(min(207px, 100%), 0));
-	justify-content: center;
-	gap: 2.3vw;
-}
-table {
-	float: left;
-	margin-left: 9vw;
-	border-collapse: collapse;
-	-webkit-border-horizontal-spacing: 0px;
-	-webkit-border-vertical-spacing: 0px;
-}
-h2.tb {
-	display: table-cell;
-	vertical-align: bottom;
-	text-align: center;
-	width: 200px;
-	font-weight: bold;
-	color: #fff;
-}
-h3.tb {
-	font-weight: normal;
-	color: #fff;
-	margin: 0;
-	padding: 0 1%;
-	text-align: center
-}
-td,.td {
-	width: 200px;
-	height: 200px;
-	padding: 0;
-	border-radius: 5px;
-	background: rgb(96 195 195);
-	box-shadow: 7px 0 rgba(56, 56, 56, .35);
-}
-.hidden {
-	width: 200px;
-	height: 200px;
-	display: block;
-	text-indent: -9999px;
-	position: absolute;
-}
-.caption {
-	width: auto;
-	opacity: 1;
-	overflow: hidden;
-	transition: all .6s ease;
-	border-radius: 5px;
-	background: rgba(56, 56, 56, .8);
-}
-.caption>h3 {
-	background: rgba(20, 20, 20, .8);
-}
-.td:hover {
-	box-shadow: 7px 0 rgba(235, 13, 13, .35);
-}
-.td:hover .caption {
-	background: rgba(60, 60, 60, 1);
-}
-.hgap {
-	width: 2.3vw;
-}
-.vgap {
-	height: 2.3vw;
 }
