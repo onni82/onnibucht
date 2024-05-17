@@ -13,7 +13,7 @@ body,html {
 body {
 	zoom: 1;
 	/*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
-	font-family: 'Quicksand', sans-serif;
+	font-family: "Quicksand", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: rgb(78, 87, 104);
 	margin: 0;
 	min-width: 320px;
@@ -31,21 +31,24 @@ div {
 header {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 	flex: 0 1 auto;
 }
 header img {
-	margin: auto;
-	padding-top: 1em;
+/*	margin: auto;*/
+	margin-top: 1em;
+	margin-left: 1em;
 }
 header ul {
-	padding-left: 1%;
-	padding-right: 1%;
+/*	padding-left: 1%;
+	padding-right: 1%;*/
+	margin-top: 1em;
 	text-align: center;
 	list-style: none;
 }
 header li {
 	display: inline-block;
-	margin-left: 1rem;
+/*	margin-left: 1rem;*/
 	margin-right: 1rem;
 	margin-bottom: 1rem;
 }
@@ -82,9 +85,10 @@ a.button:hover,a.button:focus {
 	background-color: rgba(206, 114, 253, .59);
 }
 #page {
-	width: 50%;
-	margin: auto;
+/*	width: 50%;*/
+/*	margin: auto;*/
 	flex: 1 1 auto;
+	padding: 0 2%;
 }
 .flextext {
 	display: flex;
