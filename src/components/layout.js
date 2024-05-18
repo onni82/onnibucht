@@ -22,7 +22,7 @@ export default function Layout({ pageProp, location, children }) {
             </header>
             {children}
             <footer id="footer">
-                <p>Copyright &copy; 2024 <span className="blacktext">Onni August Emanuel Bucht</span></p>
+                <p>&copy; 2024 <span className="blacktext">Onni Bucht</span></p>
                 <p><Link to="/contact/">Contact</Link></p>
             </footer>
         </div>
