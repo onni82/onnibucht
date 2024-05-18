@@ -30,7 +30,7 @@ div {
 }
 header {
 	display: flex;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 	justify-content: space-between;
 	flex: 0 1 auto;
 }
@@ -59,30 +59,14 @@ img.skillLogo {
 footer {
 	display: flex;
 	flex: 0 1 40px;
+	flex-flow: row wrap;
+	justify-content: space-between;
 }
 footer>p {
 	padding: 0 2%;
 }
 .blacktext {
 	color: #000;
-}
-a.button {
-	font-size: 14px;
-	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: 1.8px;
-	fill: #fff;
-	color: #fff;
-	background-color: rgb(186, 53, 253);
-	border-radius: 30px 30px 30px 30px;
-	padding: 17px 42px 17px 40px;
-	-webkit-transition: all .3s;
-	-o-transition: all .3s;
-	transition: all .3s;
-}
-a.button:hover,a.button:focus {
-	color: #fff;
-	background-color: rgba(206, 114, 253, .59);
 }
 #page {
 /*	width: 50%;*/
@@ -94,19 +78,18 @@ a.button:hover,a.button:focus {
 	display: flex;
 }
 a {
-	color: rgba(188, 119, 0, 1);
+	color: rgb(188, 119, 0);
 	text-decoration: none;
 }
 a[aria-current],a.active {
 	color: rgb(0, 0, 0);
 }
 a:hover {
-	color: rgba(222, 141, 0, 1);
+	color: rgb(222, 141, 0);
 	text-decoration: none;
 }
-#page>h1,#page>h2 {
-	padding: 0 2%;
-}
+#page>h1,
+#page>h2,
 #page>p {
 	padding: 0 2%;
 }
@@ -130,7 +113,7 @@ h2 {
 	font-size: 1.2em;
 }
 h3 {
-	font-size: 1.0em;
+	font-size: 1em;
 }
 .centered {
 	text-align: center;
