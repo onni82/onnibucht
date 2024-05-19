@@ -31,8 +31,17 @@ div {
 header {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
 	flex: 0 1 auto;
+}
+@media screen and (min-width: 511px) {
+	header {
+		justify-content: space-between;
+	}
+}
+@media screen and (max-width: 510px) {
+	header {
+		justify-content: center;
+	}
 }
 header img {
 /*	margin: auto;*/
@@ -92,6 +101,10 @@ a:hover {
 #page>h2,
 #page>p {
 	padding: 0 2%;
+}
+#page section {
+	margin-left: 2%;
+	max-width: 50%;
 }
 h1,h2,h3,h4,h5,h6 {
 	margin-top: 0;

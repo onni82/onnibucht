@@ -7,7 +7,7 @@ export default function Background() {
     return (
         <Layout pageProp="background">
             <div id="page">
-                <Header headerText="Background" className="centered" />
+                <Header headerText="Background" />
                 <p>Known by some as Emanuel and by some as Onni - he is a person with an interest in web development, music production, audio engineering and languages.</p>
                 <p>Before graduating from Dalarna University (in Falun, Sweden) with bachelor's degree in sound and music production, he released multiple singles and EPs under the name of ONB, many in collaboration during his final two years in university.</p>
                 <p>There are also previous musical works from him, starting in 2009.</p>

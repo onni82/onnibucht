@@ -13,11 +13,11 @@ export default function Layout({ pageProp, location, children }) {
     return (
         <div id="boxcontent">
             <header>
-                <img src={Logo} alt="" height="36" />
+                <a href="/"><img src={Logo} alt="" height="36" /></a>
                 <ul>
                     <ListLink to="/">Work Experience</ListLink>
                     <ListLink to="/education/">Education</ListLink>
-                    <ListLink to="/background/">Background</ListLink>
+                    <ListLink to="/skills/">Skills</ListLink>
                 </ul>
             </header>
             {children}
