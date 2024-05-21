@@ -9,18 +9,18 @@ export default function Skills() {
             <Layout pageProp="skills">
                 <div id="page">
                     <Header headerText="Skills" />
-                    <h2>Media Skills</h2>
+                    <p className="bold">Media Skills</p>
                     <p>Music writing, lyric writing, audio engineering &amp; music production</p>
-                    <h2>Languages</h2>
+                    <p className="bold">Languages</p>
                     <p>English, Swedish &amp; some Korean</p>
                     <Header headerText="Tools" />
-                    <h2>Operative Systems</h2>
+                    <p className="bold">Operative Systems</p>
                     <p>Windows, macOS, Ubuntu (Desktop &amp; Server)</p>
-                    <h2>Text/Code Editors</h2>
+                    <p className="bold">Text/Code Editors</p>
                     <p>Visual Studio, Sublime Text, Code::Blocks</p>
-                    <h2>Digital Audio Workstations</h2>
+                    <p className="bold">Digital Audio Workstations</p>
                     <p>Avid Pro Tools, Image-Line FL Studio, Apple Logic Pro</p>
-                    <h2>Video Editing Software</h2>
+                    <p className="bold">Video Editing Software</p>
                     <p>Adobe Premiere Pro, Avid Media Composer, Apple Final Cut Pro</p>
                     <br />
                 </div>
@@ -30,5 +30,5 @@ export default function Skills() {
 }
 
 export const Head = () => (
-    <Seo title="Skills and Tools" />
+    <Seo title="Skills" />
 )
