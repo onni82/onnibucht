@@ -32,13 +32,14 @@ header {
 	display: flex;
 	flex-flow: row wrap;
 	flex: 0 1 auto;
+	justify-content: space-between;
 }
-@media screen and (min-width: 511px) {
+@media screen and (min-width: 440px) {
 	header {
 		justify-content: space-between;
 	}
 }
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 439px) {
 	header {
 		justify-content: center;
 	}
@@ -82,6 +83,10 @@ footer>p {
 /*	margin: auto;*/
 	flex: 1 1 auto;
 	padding: 0 2%;
+	background-image: url("../images/Onni1000px.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 55vw center;
 }
 .flextext {
 	display: flex;
@@ -97,16 +102,21 @@ a:hover {
 	color: rgb(222, 141, 0);
 	text-decoration: none;
 }
-#page>h1,
-#page>h2,
-#page>p {
+#page > h1,
+#page > h2,
+#page > p {
 	padding: 0 2%;
 }
 #page section {
 	margin-left: 2%;
+	padding-bottom: 0.5em;
 	max-width: 50%;
+	background-color: rgba(255, 255, 255, 0.1);
 }
-h1, h2, h3, h4, h5, h6, p.bold {
+section p {
+	text-shadow: /*0px 0px 8px black, */0px 0px 8px white;
+}
+h1, h2, h3, h4, h5, h6, p.subcategory {
 	margin-top: 0;
 	margin-left: 0;
 	font-weight: bold;
@@ -122,7 +132,7 @@ h1 {
 	font-size: 1.8em;
 	margin-bottom: 20px;
 }
-h2, p.bold {
+h2, p.subcategory {
 	font-size: 1.2em;
 }
 h3 {

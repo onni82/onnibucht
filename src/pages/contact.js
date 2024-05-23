@@ -5,10 +5,10 @@ import Layout from "../components/layout"
 
 export default function Contact() {
 	return (
-		<div id="content">
-			<Layout pageProp="contact">
-				<div id="page">
-					<Header headerText="Contact" />
+		<Layout pageProp="contact">
+			<div id="page">
+				<Header headerText="Contact" />
+				<section>
 					<p>Known by some as Emanuel and by many as Onni - he is a person with an interest in web development, music production, audio engineering and languages.</p>
 					<p>Before graduating from Dalarna University (in Falun, Sweden) with bachelor's degree in sound and music production, he released multiple singles and EPs under the name of ONB, many in collaboration during his final two years in university.</p>
 					<p>There are also previous musical works from him, starting in 2009.</p>
@@ -17,9 +17,9 @@ export default function Contact() {
 					<p>If you feel like working together, feel free to message me!</p>
 					<p>Email: <a href="mailto:emanuel.bucht@icloud.com">emanuel.bucht@icloud.com</a>.</p>
 					<p>Instagram: <a href="https://instagram.com/onni82" target="_blank" rel="noreferrer nofollow">@onni82</a> &amp; <a href="https://instagram.com/onbprod" target="_blank" rel="noreferrer nofollow">@onbprod</a>.</p>
-				</div>
-			</Layout>
-		</div>
+				</section>
+			</div>
+		</Layout>
 	);
 }
 
