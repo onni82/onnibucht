@@ -10,6 +10,11 @@ export default function Education() {
 				<Header headerText="Education" />
 				<section>
 					<p className="subcategory">Iris Hadar</p>
+					<p>Apr 2024-Present - Municipal Adult Education - Web development 1</p>
+					<p>Stockholm/Södertälje, Sweden (online course)</p>
+				</section>
+				<section>
+					<p className="subcategory">Iris Hadar</p>
 					<p>Nov 2023-Jan 2024 - Municipal Adult Education - Mathematics 2a</p>
 					<p>Stockholm/Södertälje, Sweden (online course)</p>
 				</section>

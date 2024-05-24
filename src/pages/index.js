@@ -11,7 +11,7 @@ export default function Home() {
 				<section>
 					<p className="subcategory">Securitas</p>
 					<p>April 2022-Present - Security Guard</p>
-					<p>Full-time contract as a security guard. On behalf of Securitas, I patrol several buildings at one of their clients' work areas in Södertälje.<br />This also includes report writing and fire and emergency alarm calls, as well as working as a receptionist and escort when needed.</p>
+					<p>Full-time contract as a security guard. On behalf of Securitas, I patrol several buildings at one of their clients' sites in Södertälje.<br />This also includes report writing and getting called out on fire and emergency alarms, as well as working as a receptionist and escort when needed.</p>
 					<p>Södertälje, Sweden</p>
 				</section>
 				<section>
