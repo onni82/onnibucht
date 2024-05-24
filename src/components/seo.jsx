@@ -1,6 +1,6 @@
 import React from "react"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
-import SeoImage from "../images/logo3.png"
+import SeoImage from "../images/logo-big.png"
 
 export const Seo = ({ title, description, pathname, children }) => {
   const { title: defaultTitle, description: defaultDescription, author, siteURL} = useSiteMetadata()

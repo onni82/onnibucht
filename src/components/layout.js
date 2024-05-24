@@ -1,7 +1,7 @@
 import React from "react"
 //import { graphql } from "gatsby"
 import { Link } from "gatsby"
-import Logo from "../images/logo3.png"
+import Logo from "../images/logo-big.png"
 
 const ListLink = props => (
     <li>

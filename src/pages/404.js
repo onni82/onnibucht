@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
 import { Seo } from "../components/seo"
-import Logo from "../images/logo3.png"
+import Logo from "../images/logo-big.png"
 
 const ListLink = props => (
     <li className="headerlink">
