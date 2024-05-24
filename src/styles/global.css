@@ -45,20 +45,16 @@ header {
 	}
 }
 header img {
-/*	margin: auto;*/
 	margin-top: 1em;
 	margin-left: 1em;
 }
 header ul {
-/*	padding-left: 1%;
-	padding-right: 1%;*/
 	margin-top: 1em;
 	text-align: center;
 	list-style: none;
 }
 header li {
 	display: inline-block;
-/*	margin-left: 1rem;*/
 	margin-right: 1rem;
 	margin-bottom: 1rem;
 }
@@ -79,8 +75,6 @@ footer>p {
 	color: #000;
 }
 #page {
-/*	width: 50%;*/
-/*	margin: auto;*/
 	flex: 1 1 auto;
 	padding: 0 2%;
 	background-image: url("../images/Onni1000px.png");
@@ -114,7 +108,7 @@ a:hover {
 	background-color: rgba(255, 255, 255, 0.1);
 }
 section p {
-	text-shadow: /*0px 0px 8px black, */0px 0px 8px white;
+	text-shadow: 0px 0px 8px white;
 }
 h1, h2, h3, h4, h5, h6, p.subcategory {
 	margin-top: 0;
