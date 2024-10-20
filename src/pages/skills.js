@@ -13,6 +13,10 @@ export default function Skills() {
 					<p>Visual Studio, Sublime Text, Code::Blocks</p>
 				</section>
 				<section>
+					<p className="subcategory">Coding</p>
+					<p>C/C++, C# (.NET), JavaScript, HTML, CSS, MySQL</p>
+				</section>
+				<section>
 					<p className="subcategory">Media Skills</p>
 					<p>Music writing, lyric writing, audio engineering &amp; music production</p>
 				</section>
