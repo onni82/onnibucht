@@ -11,32 +11,32 @@ export default function Education() {
 				<section>
 					<p className="subcategory">Chas Academy</p>
 					<p>Sep 2024-Present - Associate of Science - Full Stack .NET Web Development</p>
-					<p>Stockholm/Södertälje, Sweden (online course)</p>
+					<p>Stockholm, Sweden (on site and remote)</p>
 				</section>
 				<section>
 					<p className="subcategory">Iris Hadar</p>
 					<p>Apr 2024-June 2024 - Municipal Adult Education - Web development 1</p>
-					<p>Stockholm/Södertälje, Sweden (online course)</p>
+					<p>Stockholm/Södertälje, Sweden (remote course)</p>
 				</section>
 				<section>
 					<p className="subcategory">Iris Hadar</p>
 					<p>Nov 2023-Jan 2024 - Municipal Adult Education - Mathematics 2a</p>
-					<p>Stockholm/Södertälje, Sweden (online course)</p>
+					<p>Stockholm/Södertälje, Sweden (remote course)</p>
 				</section>
 				<section>
 					<p className="subcategory">Iris Hadar</p>
 					<p>July 2023-Sep 2023 - Municipal Adult Education - Programming 1 (C++)</p>
-					<p>Stockholm/Södertälje, Sweden (online course)</p>
+					<p>Stockholm/Södertälje, Sweden (remote course)</p>
 				</section>
 				<section>
 					<p className="subcategory">Be Licensed</p>
 					<p>Feb 2022-Mar 2022 - Vocational Training - Video Production</p>
-					<p>Stockholm, Sweden (online course)</p>
+					<p>Stockholm, Sweden (remote course)</p>
 				</section>
 				<section>
 					<p className="subcategory">Be Licensed</p>
 					<p>Dec 2021-Jan 2022 - Vocational Training - Sound Production</p>
-					<p>Stockholm, Sweden (online course)</p>
+					<p>Stockholm, Sweden (remote course)</p>
 				</section>
 				<section>
 					<p className="subcategory">Dalarna University</p>
