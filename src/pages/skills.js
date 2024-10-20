@@ -9,6 +9,10 @@ export default function Skills() {
 			<div id="page">
 				<Header headerText="Skills" />
 				<section>
+					<p className="subcategory">Text/Code Editors</p>
+					<p>Visual Studio, Sublime Text, Code::Blocks</p>
+				</section>
+				<section>
 					<p className="subcategory">Media Skills</p>
 					<p>Music writing, lyric writing, audio engineering &amp; music production</p>
 				</section>
@@ -20,10 +24,6 @@ export default function Skills() {
 				<section>
 					<p className="subcategory">Operative Systems</p>
 					<p>Windows, macOS, Ubuntu (Desktop &amp; Server)</p>
-				</section>
-				<section>
-					<p className="subcategory">Text/Code Editors</p>
-					<p>Visual Studio, Sublime Text, Code::Blocks</p>
 				</section>
 				<section>
 					<p className="subcategory">Digital Audio Workstations</p>
