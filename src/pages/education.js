@@ -9,8 +9,13 @@ export default function Education() {
 			<div id="page">
 				<Header headerText="Education" />
 				<section>
+					<p className="subcategory">Chas Academy</p>
+					<p>Sep 2024-Present - Associate of Science - Full Stack .NET Web Development</p>
+					<p>Stockholm/Södertälje, Sweden (online course)</p>
+				</section>
+				<section>
 					<p className="subcategory">Iris Hadar</p>
-					<p>Apr 2024-Present - Municipal Adult Education - Web development 1</p>
+					<p>Apr 2024-June 2024 - Municipal Adult Education - Web development 1</p>
 					<p>Stockholm/Södertälje, Sweden (online course)</p>
 				</section>
 				<section>
